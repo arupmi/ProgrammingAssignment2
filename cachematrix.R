@@ -2,6 +2,8 @@
 
 ## Function makeCacheMatrix initializes the matrix passed as argument x
 ## It defines the matrix x and its inverse inv in the parent env
+## it also defines the associated functions set, get, setinverse & getinverse
+## which act as methods for the defined matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
